@@ -5,6 +5,9 @@
   "description": "Grist is the evolution of spreadsheets",
   "homepage": "https://github.com/gristlabs/grist-core",
   "repository": "git://github.com/gristlabs/grist-core.git",
+  "engines": {
+    "node": "13"
+  },
   "scripts": {
     "start": "sandbox/watch.sh",
     "install:python": "buildtools/prepare_python.sh",
@@ -64,7 +67,7 @@
     "@types/saml2-js": "2.0.1",
     "@types/selenium-webdriver": "4.0.0",
     "@types/sinon": "5.0.5",
-    "@types/sqlite3": "3.1.6",
+    "@types/sqlite3": "5.1.2",
     "@types/tmp": "0.0.33",
     "@types/uuid": "3.4.4",
     "@types/which": "2.0.1",
